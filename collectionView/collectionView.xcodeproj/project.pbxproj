@@ -15,9 +15,9 @@
 		121FA19B1F2F566E00D3A7A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 121FA19A1F2F566E00D3A7A7 /* Assets.xcassets */; };
 		121FA19E1F2F566E00D3A7A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 121FA19C1F2F566E00D3A7A7 /* LaunchScreen.storyboard */; };
 		121FA1A91F2F566E00D3A7A7 /* collectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 121FA1A81F2F566E00D3A7A7 /* collectionViewUITests.m */; };
-		12225ED71F307EEF00035268 /* ZYCPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12225ED51F307EEF00035268 /* ZYCPhotoCell.m */; };
-		12225ED81F307EEF00035268 /* ZYCPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12225ED61F307EEF00035268 /* ZYCPhotoCell.xib */; };
-		12225EDB1F30B74600035268 /* ZYCGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 12225EDA1F30B74600035268 /* ZYCGridLayout.m */; };
+		12225EE11F30EFF000035268 /* ZYCGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 12225EDD1F30EFF000035268 /* ZYCGridLayout.m */; };
+		12225EE21F30EFF000035268 /* ZYCPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12225EDF1F30EFF000035268 /* ZYCPhotoCell.m */; };
+		12225EE31F30EFF000035268 /* ZYCPhotoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12225EE01F30EFF000035268 /* ZYCPhotoCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +45,11 @@
 		121FA1A41F2F566E00D3A7A7 /* collectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = collectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		121FA1A81F2F566E00D3A7A7 /* collectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = collectionViewUITests.m; sourceTree = "<group>"; };
 		121FA1AA1F2F566E00D3A7A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		12225ED41F307EEF00035268 /* ZYCPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZYCPhotoCell.h; path = ../ZYCPhotoCell.h; sourceTree = "<group>"; };
-		12225ED51F307EEF00035268 /* ZYCPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZYCPhotoCell.m; path = ../ZYCPhotoCell.m; sourceTree = "<group>"; };
-		12225ED61F307EEF00035268 /* ZYCPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ZYCPhotoCell.xib; path = ../ZYCPhotoCell.xib; sourceTree = "<group>"; };
-		12225ED91F30B74600035268 /* ZYCGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZYCGridLayout.h; path = ../ZYCGridLayout.h; sourceTree = "<group>"; };
-		12225EDA1F30B74600035268 /* ZYCGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZYCGridLayout.m; path = ../ZYCGridLayout.m; sourceTree = "<group>"; };
+		12225EDC1F30EFF000035268 /* ZYCGridLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCGridLayout.h; sourceTree = "<group>"; };
+		12225EDD1F30EFF000035268 /* ZYCGridLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCGridLayout.m; sourceTree = "<group>"; };
+		12225EDE1F30EFF000035268 /* ZYCPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCPhotoCell.h; sourceTree = "<group>"; };
+		12225EDF1F30EFF000035268 /* ZYCPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCPhotoCell.m; sourceTree = "<group>"; };
+		12225EE01F30EFF000035268 /* ZYCPhotoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZYCPhotoCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,11 +91,11 @@
 		121FA18A1F2F566E00D3A7A7 /* collectionView */ = {
 			isa = PBXGroup;
 			children = (
-				12225ED91F30B74600035268 /* ZYCGridLayout.h */,
-				12225EDA1F30B74600035268 /* ZYCGridLayout.m */,
-				12225ED41F307EEF00035268 /* ZYCPhotoCell.h */,
-				12225ED51F307EEF00035268 /* ZYCPhotoCell.m */,
-				12225ED61F307EEF00035268 /* ZYCPhotoCell.xib */,
+				12225EDC1F30EFF000035268 /* ZYCGridLayout.h */,
+				12225EDD1F30EFF000035268 /* ZYCGridLayout.m */,
+				12225EDE1F30EFF000035268 /* ZYCPhotoCell.h */,
+				12225EDF1F30EFF000035268 /* ZYCPhotoCell.m */,
+				12225EE01F30EFF000035268 /* ZYCPhotoCell.xib */,
 				121FA18E1F2F566E00D3A7A7 /* AppDelegate.h */,
 				121FA18F1F2F566E00D3A7A7 /* AppDelegate.m */,
 				121FA1911F2F566E00D3A7A7 /* ViewController.h */,
@@ -210,7 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				121FA19E1F2F566E00D3A7A7 /* LaunchScreen.storyboard in Resources */,
-				12225ED81F307EEF00035268 /* ZYCPhotoCell.xib in Resources */,
+				12225EE31F30EFF000035268 /* ZYCPhotoCell.xib in Resources */,
 				121FA19B1F2F566E00D3A7A7 /* Assets.xcassets in Resources */,
 				121FA1961F2F566E00D3A7A7 /* Main.storyboard in Resources */,
 			);
@@ -231,11 +231,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				121FA1931F2F566E00D3A7A7 /* ViewController.m in Sources */,
-				12225ED71F307EEF00035268 /* ZYCPhotoCell.m in Sources */,
+				12225EE21F30EFF000035268 /* ZYCPhotoCell.m in Sources */,
 				121FA1901F2F566E00D3A7A7 /* AppDelegate.m in Sources */,
 				121FA1991F2F566E00D3A7A7 /* collectionView.xcdatamodeld in Sources */,
-				12225EDB1F30B74600035268 /* ZYCGridLayout.m in Sources */,
 				121FA18D1F2F566E00D3A7A7 /* main.m in Sources */,
+				12225EE11F30EFF000035268 /* ZYCGridLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
